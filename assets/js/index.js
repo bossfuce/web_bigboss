@@ -17,9 +17,7 @@ $(function () {
         localStorage.removeItem("token");
         // 重新跳转页面
         location.href = "./login.html";
-
         // 关闭询问框
-
         layer.close(index);
       }
     );
